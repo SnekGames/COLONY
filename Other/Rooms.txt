@@ -1,0 +1,44 @@
+
+--Basic colony--
+Rooms
+	Bedroom
+		Single
+		Bunkbeds
+		'Luxury'
+	Dining area
+	Kitchen
+	Water purifier
+	Power generator (can be supplied in different ways)
+	Ore dropoff
+	Communications array
+	Landing area
+	Air purifier 
+	
+--Recreational addon?--
+	Bar 
+	
+--Security addon--
+Guard office
+	Weapons locker
+	Holding cells
+	Tracking/communcations
+	Deployable turrets
+	
+--Commercial addon--
+	Ore dropoff + garage
+	Refined material forge
+	Medicine production
+	Electronics production
+	Mechanical components production
+	Machine production
+	
+	Greenhouse
+	Food assembly
+	
+--Miscellaneous--
+	Evacuation
+	Security doors
+	
+--Training facility--
+
+--Hangar/shipyard--

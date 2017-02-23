@@ -1,0 +1,8 @@
+
+1. Create the object.
+2. Create a handler.
+3. (currently) Add draw objects function in the handler, and 
+add a call in function drawFrame in Frame.
+4. (currently) Add an update objects in the handler and add a 
+call in the function actionPerformed in Frame.
+5. (future) Add handler in check collisions object.

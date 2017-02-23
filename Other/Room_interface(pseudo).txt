@@ -1,0 +1,22 @@
+interface rooms
+
+hasCorrectDimensions()
+//Return true if room has the right dimensions
+
+hasInverntory()
+//Return true if room has the correct inventory
+
+isSelfPressurised()
+//Returns true if if the room is completely surrounded by walls/doors
+
+isComplete()
+//True if the room has been completed (has necessary walls/doors inventory)
+
+setComplete()
+//Set state of room to complete
+
+setNotComplete()
+//Set state of room to incomplete
+
+isDamaged()
+//Return true if damaged
