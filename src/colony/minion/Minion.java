@@ -176,7 +176,21 @@ public class Minion {
 
     public int getPosY() { return (int) Math.round( pos_y ); }
 
+    public void setPosX(double pos_x) { this.pos_x=pos_x; }
+
+    public void setPosY(double pos_y) { this.pos_y=pos_y; }
+
+    public void setdx( int dx ){ this.dx = dx; }
+
+    public void setdy( int dy ){ this.dy = dy; }
+
+    public double getdx(){ return dx; }
+
+    public double getdy(){ return dy; }
+
     public int getId() { return id; }
+
+    public void setId( int id ) { this.id = id; }
 
     public boolean isVisible() {
         return vis;
@@ -229,4 +243,9 @@ public class Minion {
         this.dx = direction[0];
         this.dy = direction[1];
     }
+
+    public double getCollisionBoundaryXmin(){return collision_boundary_xmin;}
+    public double getCollisionBoundaryYmin(){return collision_boundary_ymin;}
+    public double getCollisionBoundaryXmax(){return collision_boundary_xmax;}
+    public double getCollisionBoundaryYmax(){return collision_boundary_ymax;}
 }

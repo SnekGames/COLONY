@@ -4,6 +4,8 @@ package colony.application;
  */
 
 
+import colony.graphics.Board;
+
 import java.awt.*;
 import javax.swing.JFrame;
 
@@ -16,13 +18,13 @@ public class Application extends JFrame {
     }
 
     private void initUI() {
-        // Send size of screen to the Frame
+        // Send size of screen to the Board
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         screen_width = (int) screenSize.getWidth();
         screen_height = (int) screenSize.getHeight();
 
         setSize(screen_width,screen_height);
-        add(new colony.graphics.Frame(screen_width,screen_height)); /** Create graphic window */
+        add(new Board(screen_width,screen_height)); /** Create graphic window */
         setResizable(false);
         //pack();
 

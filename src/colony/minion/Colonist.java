@@ -75,6 +75,9 @@ public class Colonist extends Minion {
 
     @Override
     public void mkeyReleased(MouseEvent e) {
+
+        //System.out.println("colonist at x="+pos_x+" y="+pos_y+" is checked");
+
         int key = e.getButton();
         if( key == 1 /**Left mouse click*/) {
             if ((collision_boundary_xmin < e.getX() && e.getX() < collision_boundary_xmax) &&
